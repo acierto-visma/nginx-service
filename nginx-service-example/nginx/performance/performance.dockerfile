@@ -1,7 +1,7 @@
 FROM nginx:latest
 
 # Copy index.html to the default nginx web directory
-COPY index.html /usr/share/nginx/html/index/
+COPY performance.html /usr/share/nginx/html/index.html
 
 EXPOSE 80
 
