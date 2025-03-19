@@ -1,0 +1,9 @@
+services:
+  nginx:
+    build: 
+      context: ./nginx
+      dockerfile: frontend.dockerfile
+    ports:
+      - "1170:80"
+    container_name: nginx-container
+    restart: always
